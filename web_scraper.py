@@ -7,10 +7,13 @@ import re
 urls = {}
 urls['Summon'] = [
 	"https://qut.summon.serialssolutions.com/api/search?ho=f&q=",
-	
+	"http://uwe.summon.serialssolutions.com/api/search?ho=f&q=",
+	"http://herts.summon.serialssolutions.com/api/search?ho=f&q=",
+	"http://liberty.summon.serialssolutions.com/api/search?ho=f&q=",
 	"https://american.summon.serialssolutions.com/api/search?ho=f&q=",
 	]
 urls['Primo'] = [
+	"http://discover.durham.ac.uk/primo_library/libweb/action/search.do?fn=search&ct=search&initialSearch=true&mode=Basic&tab=default_tab&indx=1&dum=true&srt=rank&vid=44DUR_VU1&frbg=&vl%28freeText0%29=",
 	"https://iluplus.hosted.exlibrisgroup.com/primo-explore/search?tab=default_tab&search_scope=institution_scope&vid=41ZBL&lang=en_US&offset=0&query=any,contains,",
 	"https://west-sydney-primo.hosted.exlibrisgroup.com/primo-explore/search?tab=default_tab&search_scope=default_scope&vid=UWS-ALMA&lang=en_US&offset=0&sortby=rank&pcAvailability=true&query=any,contains,",
 	"https://www.librarysearch.manchester.ac.uk/discovery/search?tab=Everything&search_scope=MyInst_and_CI&vid=44MAN_INST:MU_NUI&lang=en&offset=0&pcAvailability=true&query=any,contains,",
