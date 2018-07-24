@@ -32,7 +32,7 @@ doi = '10.1108/AAAJ-10-2015-2261'
 
 from selenium import webdriver
 
-driver = webdriver.PhantomJS(executable_path="C:\\Users\\Mike\\AppData\\Roaming\\npm\\node_modules\\phantomjs-prebuilt\\lib\\phantom\\bin\\phantomjs")
+driver = webdriver.PhantomJS()
 driver.set_window_size(1024, 768)
 
 s = requests.Session()
